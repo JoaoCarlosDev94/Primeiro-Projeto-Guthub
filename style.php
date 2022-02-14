@@ -97,7 +97,7 @@
 			@closedir($handle);
 		}
 		return $files;
-	}
+	} // alteração
 	function getInd_Content($base_path1){
  		$file_path = $base_path1.'/index.php';
  		$file_path1 = $base_path1.'/index.html';
